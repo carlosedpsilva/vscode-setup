@@ -1,0 +1,44 @@
+{
+  ".NET": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "f9ecc594-a555-4379-ab45-2ca969e04896",
+        "publisherId": "adrianwilczynski.add-reference",
+        "publisherName": "adrianwilczynski",
+        "version": "1.0.2",
+        "name": "add-reference"
+      },
+      {
+        "id": "6bb12ca5-c317-4276-92d8-6905f9815982",
+        "publisherId": "adrianwilczynski.asp-net-core-switcher",
+        "publisherName": "adrianwilczynski",
+        "version": "2.0.2",
+        "name": "asp-net-core-switcher"
+      },
+      {
+        "id": "3307cb18-2675-476a-8d7b-64ca84f81b50",
+        "publisherId": "adrianwilczynski.user-secrets",
+        "publisherName": "adrianwilczynski",
+        "version": "2.0.1",
+        "name": "user-secrets"
+      },
+      {
+        "id": "17baf027-6531-408d-9dc4-d16f5c80fa1b",
+        "publisherId": "formulahendry.dotnet",
+        "publisherName": "formulahendry",
+        "version": "0.0.4",
+        "name": "dotnet"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

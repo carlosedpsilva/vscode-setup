@@ -1,0 +1,564 @@
+{
+  "Essentials": {
+    "requires": [
+      "Java",
+      "Node"
+    ],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {
+      /*--------------------------------------------------------------------------*/
+      /*                                  MAIN                                    */
+      /*--------------------------------------------------------------------------*/
+
+      "window.zoomLevel": -1,
+
+      "files.restoreUndoStack": true, // false, but is needed
+      "window.restoreWindows": "none", // none
+      "workbench.editor.restoreViewState": false, // false
+      "workbench.startupEditor": "none", // none
+
+      "editor.formatOnSave": false, // false
+      "editor.formatOnPaste": false, // false
+      "editor.formatOnType": false, // false
+      "editor.minimap.enabled": true, // false
+      "editor.wordWrap": "off", // off
+
+      /*--------------------------------------------------------------------------*/
+      /*                                 TERMINAL                                 */
+      /*--------------------------------------------------------------------------*/
+
+      "terminal.integrated.defaultProfile.windows": "Git Bash",
+      "terminal.integrated.defaultProfile.linux": "zsh",
+
+      "terminal.integrated.fontSize": 10,
+      "terminal.integrated.tabs.enabled": true,
+      "terminal.integrated.gpuAcceleration": "on",
+      "terminal.integrated.fontFamily": "Cascadia Mono",
+
+      /*--------------------------------------------------------------------------*/
+      /*                                   EDITOR                                 */
+      /*--------------------------------------------------------------------------*/
+
+      "editor.inlineSuggest.enabled": true,
+
+      "editor.cursorStyle": "line-thin",
+      "editor.fontFamily": "FiraCode NF",
+      "editor.fontLigatures": true,
+      "editor.fontSize": 12,
+
+      "editor.renderControlCharacters": true,
+      "editor.renderFinalNewline": true,
+      "editor.renderLineHighlight": "gutter",
+      "editor.renderWhitespace": "trailing",
+      "editor.rulers": [80, 100, 120, 140, 160, 180, 200],
+
+      "editor.colorDecorators": true, // disable vscode's default color picker
+
+      "editor.bracketPairColorization.enabled": true,
+
+      "editor.tokenColorCustomizations": {
+        "comments": "#2ecc71",
+        "textMateRules": [
+          {
+            "scope": "comment punctuation.definition.comment, string.quoted.docstring",
+            "settings": { "foreground": "#2ecc71", "fontStyle": "italic" }
+          }
+        ]
+      },
+
+      /*--------------------------------------------------------------------------*/
+      /*                                 WORKBENCH                                */
+      /*--------------------------------------------------------------------------*/
+
+      "workbench.editor.pinnedTabSizing": "compact",
+
+      "workbench.editor.closeOnFileDelete": false,
+      "workbench.editor.enablePreview": false,
+      "workbench.editor.highlightModifiedTabs": true,
+      "workbench.editor.scrollToSwitchTabs": true,
+      "workbench.editor.wrapTabs": true,
+
+      "workbench.statusBar.visible": true,
+
+      "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#FFD700",
+        "editorBracketHighlight.foreground2": "#90EE90",
+        "editorBracketHighlight.foreground3": "#DA70D6",
+        "editorBracketHighlight.foreground4": "#87CEFA"
+      },
+
+      /*--------------------------------------------------------------------------*/
+      /*                                   FILES                                  */
+      /*--------------------------------------------------------------------------*/
+
+      "files.autoSave": "off",
+      "files.insertFinalNewline": false,
+      "files.trimTrailingWhitespace": false,
+
+      "files.associations": {
+        "*.json": "jsonc"
+      },
+
+      "files.exclude": {
+        "**/*.classpath": true,
+        "**/*.project": true,
+        "**/*.settings": true,
+        "**/*.factorypath": true,
+        "**/*.build": true,
+        "**/*.git": true,
+        "**/*.err": true,
+        "**/*.rec": true,
+        "**/*.log": true,
+        "**/*.evt": true,
+        "**/buildfre.*": true,
+        "**/buildchk.*": true,
+        "**/.DS_Store": true,
+
+        /* Visual Studio */
+
+        "**/*.obj": true,
+        "**/*.exe": true,
+        "**/*.pdb": true,
+        "**/*.user": true,
+        "**/*.aps": true,
+        "**/*.pch": true,
+        "**/*_i.c": true,
+        "**/*_p.c": true,
+        "**/*.ncb": true,
+        "**/*.suo": true,
+        "**/*.tlb": true,
+        "**/*.tlh": true,
+        "**/*.bak": true,
+        "**/*.ilk": true,
+        "**/*.dll": true,
+        "**/*.lib": true,
+        "**/*.sbr": true,
+        "**/*.vspscc": true,
+        "**/*.cache": true,
+
+        /* Unity */
+
+        "**/*.meta": true,
+        "**/*.*.meta": true,
+        "**/*.unity": true,
+        "**/*.unityproj": true,
+        "**/*.mat": true,
+        "**/*.fbx": true,
+        "**/*.FBX": true,
+        "**/*.tga": true,
+        "**/*.cubemap": true,
+        "**/*.prefab": true,
+        "**/Library": true,
+        "**/ProjectSettings": true,
+        "**/Temp": true
+      },
+
+      "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        ".build/**": true,
+        "out*/**": true,
+        "i18n/**": true,
+        "extensions/**/out/**": true,
+        "*.min.js": true
+      },
+
+      /*--------------------------------------------------------------------------*/
+      /*                       SPECIFIC EXTENSIONS SETTINGS                       */
+      /*--------------------------------------------------------------------------*/
+
+      /*
+       * Settings Sync
+       */
+
+      "settingsSync.ignoredSettings": ["-window.zoomLevel"],
+
+      /*
+       * Appearance
+       */
+
+      "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+      "workbench.iconTheme": "material-icon-theme",
+
+      /* Comment Anchors */
+
+      "commentAnchors.tags.list": [
+        {
+          "tag": "ANCHOR",
+          "iconColor": "default",
+          "highlightColor": "#A8C023",
+          "scope": "file"
+        },
+        {
+          "tag": "TODO",
+          "iconColor": "#FF8C00",
+          "highlightColor": "#FF8C00",
+          "scope": "workspace"
+        },
+        {
+          "tag": "FIXME",
+          "iconColor": "red",
+          "highlightColor": "#F44336",
+          "scope": "workspace"
+        },
+        {
+          "tag": "STUB",
+          "iconColor": "purple",
+          "highlightColor": "#BA68C8",
+          "scope": "file"
+        },
+        {
+          "tag": "NOTE",
+          "iconColor": "orange",
+          "highlightColor": "#FFB300",
+          "scope": "file"
+        },
+        {
+          "tag": "REVIEW",
+          "iconColor": "green",
+          "highlightColor": "#64DD17",
+          "scope": "workspace"
+        },
+        {
+          "tag": "SECTION",
+          "iconColor": "blurple",
+          "highlightColor": "#896afc",
+          "scope": "workspace",
+          "behavior": "region"
+        },
+        {
+          "tag": "LINK",
+          "iconColor": "#2ecc71",
+          "highlightColor": "#2ecc71",
+          "scope": "workspace",
+          "behavior": "link"
+        },
+        {
+          "tag": "IMPORTANT",
+          "iconColor": "#FF5555",
+          "highlightColor": "#FF5555",
+          "scope": "workspace"
+        }
+      ],
+
+      /* Color Picker */
+
+      "colorHelper.pickerForm": "default",
+      "colorHelper.disableTransparent": true, // didn't work without disabling
+
+      /*
+       * Formatters
+       */
+
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+      "[javascript]": {
+        "editor.codeActionsOnSave": { "source.fixAll.eslint": true }
+      },
+
+      "[typescript]": {
+        "editor.codeActionsOnSave": { "source.fixAll.eslint": true }
+      },
+
+      "[vue]": {
+        "editor.codeActionsOnSave": { "source.fixAll.eslint": true }
+      },
+
+      /*
+       * Specific Extensions
+       */
+
+      /* Hard wraps comments after 80 characters */
+      "rewrap.wrappingColumn": 80
+    },
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      /* appearance */
+      {
+        "id": "bf8aa94a-4051-42fe-9bd1-2becad466fe7",
+        "publisherId": "Equinusocio.vsc-community-material-theme",
+        "publisherName": "Equinusocio",
+        "version": "1.4.4",
+        "name": "vsc-community-material-theme"
+      },
+      {
+        "id": "5db78037-f674-459f-a236-db622c427c5b",
+        "publisherId": "PKief.material-icon-theme",
+        "publisherName": "PKief",
+        "version": "4.12.1",
+        "name": "material-icon-theme"
+      },
+      {
+        "id": "113b22c8-8125-42ec-8c6b-80c3f5d5fa5f",
+        "publisherId": "IBM.output-colorizer",
+        "publisherName": "IBM",
+        "version": "0.1.2",
+        "name": "output-colorizer"
+      },
+      {
+        "id": "121396ad-85a1-45ec-9fd1-d95028a847f5",
+        "publisherId": "naumovs.color-highlight",
+        "publisherName": "naumovs",
+        "version": "2.5.0",
+        "name": "color-highlight"
+      },
+      {
+        "id": "eaa2127d-cb69-4ab9-8505-a60c9ee5f28b",
+        "publisherId": "oderwat.indent-rainbow",
+        "publisherName": "oderwat",
+        "version": "8.2.2",
+        "name": "indent-rainbow"
+      },
+
+      /* settings */
+      {
+        "id": "d3a9136d-76df-4050-9935-902e05a115bc",
+        "publisherId": "rebornix.toggle",
+        "publisherName": "rebornix",
+        "version": "0.0.2",
+        "name": "toggle"
+      },
+      {
+        "id": "28fcf0b8-26a5-4e99-9b8d-02e990366c6f",
+        "publisherId": "tombonnike.vscode-status-bar-format-toggle",
+        "publisherName": "tombonnike",
+        "version": "3.0.0",
+        "name": "vscode-status-bar-format-toggle"
+      },
+
+      /* intellisense */
+      {
+        "id": "081cd2e9-bc51-4ea3-977e-544bed2e33a8",
+        "publisherId": "bierner.emojisense",
+        "publisherName": "bierner",
+        "version": "0.9.0",
+        "name": "emojisense"
+      },
+      {
+        "id": "a7fa941e-bcda-486f-8141-8483a6286177",
+        "publisherId": "SonarSource.sonarlint-vscode",
+        "publisherName": "SonarSource",
+        "version": "3.2.0",
+        "name": "sonarlint-vscode"
+      },
+      {
+        "id": "876e8f93-74d0-4f4f-91b7-34a09f19f444",
+        "publisherId": "VisualStudioExptTeam.vscodeintellicode",
+        "publisherName": "VisualStudioExptTeam",
+        "version": "1.2.16",
+        "name": "vscodeintellicode"
+      },
+      {
+        "id": "a41c1549-4053-44d4-bf30-60fc809b4a86",
+        "publisherId": "christian-kohler.path-intellisense",
+        "publisherName": "christian-kohler",
+        "version": "2.7.0",
+        "name": "path-intellisense"
+      },
+
+      /* editor */
+      {
+        "id": "46f7e7b2-0432-4bb8-a6ad-775a58948ef4",
+        "publisherId": "d3v.pastespecial",
+        "publisherName": "d3v",
+        "version": "0.9.1",
+        "name": "pastespecial"
+      },
+      {
+        "id": "93642b4f-5149-4f0b-be9f-eaa0a554e03e",
+        "publisherId": "jkjustjoshing.vscode-text-pastry",
+        "publisherName": "jkjustjoshing",
+        "version": "1.3.1",
+        "name": "vscode-text-pastry"
+      },
+      {
+        "id": "7b3aaa1d-2042-45cf-a714-d2d174af8871",
+        "publisherId": "juncaixinchi.vscode-ext-online",
+        "publisherName": "juncaixinchi",
+        "version": "0.1.1",
+        "name": "vscode-ext-online"
+      },
+      {
+        "id": "cb5ffd62-3768-4f92-83a0-ccf84e22ddf4",
+        "publisherId": "kevinkyang.auto-comment-blocks",
+        "publisherName": "kevinkyang",
+        "version": "1.0.1",
+        "name": "auto-comment-blocks"
+      },
+      {
+        "id": "5656e382-e596-43f1-9bfa-61dda3d36cd3",
+        "publisherId": "slevesque.vscode-multiclip",
+        "publisherName": "slevesque",
+        "version": "0.1.5",
+        "name": "vscode-multiclip"
+      },
+      {
+        "id": "b24a13f5-4e50-4d9a-ab0a-87f47d9fdfcb",
+        "publisherId": "stkb.rewrap",
+        "publisherName": "stkb",
+        "version": "1.16.1",
+        "name": "rewrap"
+      },
+      {
+        "id": "b476195a-5d3b-4a10-af0b-3d94f9c9f924",
+        "publisherId": "yatki.vscode-surround",
+        "publisherName": "yatki",
+        "version": "1.2.2",
+        "name": "vscode-surround"
+      },
+      {
+        "id": "5cf10212-681f-48c7-b66f-bcce5dc44a64",
+        "publisherId": "ExodiusStudios.comment-anchors",
+        "publisherName": "ExodiusStudios",
+        "version": "1.9.6",
+        "name": "comment-anchors"
+      },
+
+      /* editor color */
+      {
+        "id": "37d7747f-e652-4eac-83de-f2939f7e2121",
+        "publisherId": "anseki.vscode-color",
+        "publisherName": "anseki",
+        "version": "0.4.5",
+        "name": "vscode-color"
+      },
+      {
+        "id": "442d2b7b-5280-4112-8488-055f1360521f",
+        "publisherId": "bbugh.change-color-format",
+        "publisherName": "bbugh",
+        "version": "1.2.0",
+        "name": "change-color-format"
+      },
+      {
+        "id": "2d8a7f8c-621f-42d0-9cf3-4a1524fe158e",
+        "publisherId": "royaction.color-manager",
+        "publisherName": "royaction",
+        "version": "0.6.3",
+        "name": "color-manager"
+      },
+
+      /* editor visual */
+      {
+        "id": "0fcefdd8-e09c-4b96-9998-f5dc891893dd",
+        "publisherId": "nhoizey.gremlins",
+        "publisherName": "nhoizey",
+        "version": "0.26.0",
+        "name": "gremlins"
+      },
+      {
+        "id": "07fc4a0a-11fc-4121-ba9a-f0d534c729d8",
+        "publisherId": "pflannery.vscode-versionlens",
+        "publisherName": "pflannery",
+        "version": "1.0.9",
+        "name": "vscode-versionlens"
+      },
+
+      /* formatters */
+      {
+        "id": "f60a60a6-95ba-42d4-b41c-3d24c1b89588",
+        "publisherId": "EditorConfig.EditorConfig",
+        "publisherName": "EditorConfig",
+        "version": "0.16.4",
+        "name": "EditorConfig"
+      },
+      {
+        "id": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a",
+        "publisherId": "dbaeumer.vscode-eslint",
+        "publisherName": "dbaeumer",
+        "version": "2.2.2",
+        "name": "vscode-eslint"
+      },
+      {
+        "id": "96fa4707-6983-4489-b7c5-d5ffdfdcce90",
+        "publisherId": "esbenp.prettier-vscode",
+        "publisherName": "esbenp",
+        "version": "9.2.0",
+        "name": "prettier-vscode"
+      },
+      {
+        "id": "b744a3c9-2681-4e11-9574-14fdada8d95b",
+        "publisherId": "mwpb.java-prettier-formatter",
+        "publisherName": "mwpb",
+        "version": "0.1.4",
+        "name": "java-prettier-formatter"
+      },
+      {
+        "id": "ac70a31d-d9ab-417b-b259-baf7cd9d6cb0",
+        "publisherId": "adpyke.vscode-sql-formatter",
+        "publisherName": "adpyke",
+        "version": "1.4.4",
+        "name": "vscode-sql-formatter"
+      },
+
+      /* snippets */
+      {
+        "id": "17d45560-0c70-4fb6-b157-9ecc85d8e5a0",
+        "publisherId": "inu1255.easy-snippet",
+        "publisherName": "inu1255",
+        "version": "0.6.3",
+        "name": "easy-snippet"
+      },
+      {
+        "id": "96dfa5b7-f8cb-4e56-b165-93bb512692d7",
+        "publisherId": "svipas.control-snippets",
+        "publisherName": "svipas",
+        "version": "1.9.1",
+        "name": "control-snippets"
+      },
+      {
+        "id": "dc16888f-8660-4ff4-bdfb-b259d8c3e8a5",
+        "publisherId": "zgudino.editorconfig-vscode-snippet",
+        "publisherName": "zgudino",
+        "version": "0.2.0",
+        "name": "editorconfig-vscode-snippet"
+      },
+
+      /* ui */
+      {
+        "id": "003acb4c-bc62-4572-9f02-e8f4cd4faf91",
+        "publisherId": "lacroixdavid1.vscode-format-context-menu",
+        "publisherName": "lacroixdavid1",
+        "version": "1.0.4",
+        "name": "vscode-format-context-menu"
+      },
+      {
+        "id": "1d4d80c9-0d33-48a1-88a8-19ff80bc8e2a",
+        "publisherId": "ziyasal.vscode-open-in-github",
+        "publisherName": "ziyasal",
+        "version": "1.3.6",
+        "name": "vscode-open-in-github"
+      },
+
+      /* utility */
+      {
+        "id": "d80b9a94-f4a6-4e39-bc42-62212e365682",
+        "publisherId": "pnp.polacode",
+        "publisherName": "pnp",
+        "version": "0.3.4",
+        "name": "polacode"
+      },
+      {
+        "id": "4386e6f6-ec10-4463-9d23-c24278718947",
+        "publisherId": "tomoki1207.pdf",
+        "publisherName": "tomoki1207",
+        "version": "1.2.0",
+        "name": "pdf"
+      },
+
+      /* dependencies */
+      {
+        "id": "2f0eaac2-070b-4dc7-9b23-8dd4c970c11c",
+        "publisherId": "redhat.vscode-commons",
+        "publisherName": "redhat",
+        "version": "0.0.6",
+        "name": "vscode-commons"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

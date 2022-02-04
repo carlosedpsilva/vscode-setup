@@ -1,0 +1,44 @@
+{
+  "Vue": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "33ff1baa-02e6-40fc-bd63-9c607d987d90",
+        "publisherId": "jojoee.vue-cheatsheet",
+        "publisherName": "jojoee",
+        "version": "1.0.3",
+        "name": "vue-cheatsheet"
+      },
+      {
+        "id": "2f5dd8cb-d251-4d70-abfe-ddebcb077483",
+        "publisherId": "octref.vetur",
+        "publisherName": "octref",
+        "version": "0.35.0",
+        "name": "vetur"
+      },
+      {
+        "id": "c8d95916-cf54-455f-b324-cbd887b7d3a8",
+        "publisherId": "sdras.vue-vscode-snippets",
+        "publisherName": "sdras",
+        "version": "2.2.1",
+        "name": "vue-vscode-snippets"
+      },
+      {
+        "id": "4eceadb6-2b61-4000-b920-61e047aaf426",
+        "publisherId": "Wscats.vue",
+        "publisherName": "Wscats",
+        "version": "1.0.26",
+        "name": "vue"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

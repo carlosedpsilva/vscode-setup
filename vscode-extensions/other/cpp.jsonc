@@ -1,0 +1,30 @@
+{
+  "CPP": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "73767f91-7dcb-43cb-90b3-596d073eea1f",
+        "publisherId": "jeff-hykin.better-cpp-syntax",
+        "publisherName": "jeff-hykin",
+        "version": "1.15.11",
+        "name": "better-cpp-syntax"
+      },
+      {
+        "id": "690b692e-e8a9-493f-b802-8089d50ac1b2",
+        "publisherId": "ms-vscode.cpptools",
+        "publisherName": "ms-vscode",
+        "version": "1.8.2",
+        "name": "cpptools"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

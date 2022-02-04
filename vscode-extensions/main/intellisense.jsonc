@@ -1,0 +1,54 @@
+{
+  "Intellisense": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {
+      /*
+       * Intellisense
+       */
+
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+      "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+      },
+
+      "tabnine.experimentalAutoImports": true
+    },
+
+    /*------------------------------------------------------------------------*/
+
+    // NOTE: Pick copilot and only one of the others
+    "extensions": [
+      {
+        "id": "23c4aeee-f844-43cd-b53e-1113e483f1a6",
+        "publisherId": "GitHub.copilot",
+        "publisherName": "GitHub",
+        "version": "1.7.4812",
+        "name": "copilot"
+      },
+      {
+          "id": "75da638c-c45a-44ea-aa3b-8570a3559810",
+          "publisherId": "TabNine.tabnine-vscode",
+          "publisherName": "TabNine",
+          "version": "3.5.18",
+          "name": "tabnine-vscode"
+      },
+      {
+          "id": "d697a7e8-00fa-4039-9067-4b69a9a90f6e",
+          "publisherId": "kiteco.kite",
+          "publisherName": "kiteco",
+          "version": "0.147.0",
+          "name": "kite"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

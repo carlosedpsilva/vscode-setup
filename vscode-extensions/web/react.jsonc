@@ -1,0 +1,37 @@
+{
+  "React": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "19804510-b475-4dae-b0f7-6ca08fd1af0c",
+        "publisherId": "dsznajder.es7-react-js-snippets",
+        "publisherName": "dsznajder",
+        "version": "4.1.0",
+        "name": "es7-react-js-snippets"
+      },
+      {
+        "id": "b35cd5b4-18db-46f9-ba9e-06096c3b22d3",
+        "publisherId": "msjsdiag.vscode-react-native",
+        "publisherName": "msjsdiag",
+        "version": "1.9.0",
+        "name": "vscode-react-native"
+      },
+      {
+        "id": "8d44ce3c-a915-4099-a904-61957f35c285",
+        "publisherId": "ricardo-emerson.create-react-tsx-component",
+        "publisherName": "ricardo-emerson",
+        "version": "1.6.0",
+        "name": "create-react-tsx-component"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

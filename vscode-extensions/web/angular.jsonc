@@ -1,0 +1,37 @@
+{
+  "Angular": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "a92d457e-6f3f-4167-8087-1a54e1b6e00e",
+        "publisherId": "Angular.ng-template",
+        "publisherName": "Angular",
+        "version": "13.2.2",
+        "name": "ng-template"
+      },
+      {
+        "id": "214cbfb9-7c06-4467-bad4-357ae83eb587",
+        "publisherId": "johnpapa.Angular2",
+        "publisherName": "johnpapa",
+        "version": "12.0.0",
+        "name": "Angular2"
+      },
+      {
+        "id": "d10af6bf-270f-4cf0-b94b-1bea4bda1e2e",
+        "publisherId": "nrwl.angular-console",
+        "publisherName": "nrwl",
+        "version": "17.13.7",
+        "name": "angular-console"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

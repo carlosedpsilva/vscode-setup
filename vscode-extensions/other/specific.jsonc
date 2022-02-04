@@ -1,0 +1,175 @@
+{
+  
+  "Other": {
+    "requires": [],
+    "settings": {},
+    "extensions": []
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "VIM": {
+    "requires": [],
+    "settings": {
+      /* VIM */
+
+      "vim.useSystemClipboard": false,
+
+      "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-x>": false
+      }
+    },
+    "extensions": [
+      {
+        "id": "d96e79c6-8b25-4be3-8545-0e0ecefcae03",
+        "publisherId": "vscodevim.vim",
+        "publisherName": "vscodevim",
+        "version": "1.21.10",
+        "name": "vim"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "QuakaTime": {
+    "requires": [],
+    "settings": {},
+    "extensions": [
+      {
+        "id": "f2fd462f-f1bd-4c62-b54f-59a4e5ffc6a3",
+        "publisherId": "WakaTime.vscode-wakatime",
+        "publisherName": "WakaTime",
+        "version": "18.0.5",
+        "name": "vscode-wakatime"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "PlantUML": {
+    "requires": [],
+    "settings": {
+      /* PlantUML */
+      "plantuml.exportOutDir": "docs/out"
+    },
+    "extensions": [
+      {
+        "id": "d95cb424-7a5a-4e08-9698-107d6fd590cf",
+        "publisherId": "jebbs.plantuml",
+        "publisherName": "jebbs",
+        "version": "2.17.2",
+        "name": "plantuml"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "SQL": {
+    "requires": [],
+    "settings": {},
+    "extensions": [
+      {
+        "id": "6a2bbab0-d8f0-43fa-9b26-e6a3b7892a0b",
+        "publisherId": "mtxr.sqltools",
+        "publisherName": "mtxr",
+        "version": "0.23.0",
+        "name": "sqltools"
+      },
+      {
+        "id": "ac70a31d-d9ab-417b-b259-baf7cd9d6cb0",
+        "publisherId": "adpyke.vscode-sql-formatter",
+        "publisherName": "adpyke",
+        "version": "1.4.4",
+        "name": "vscode-sql-formatter"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  ".ENV": {
+    "requires": [],
+    "settings": {},
+    "extensions": [
+      {
+        "id": "532533c9-a894-4a58-9eee-bbfbe7c06f71",
+        "publisherId": "mikestead.dotenv",
+        "publisherName": "mikestead",
+        "version": "1.0.1",
+        "name": "dotenv"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "MASM": {
+    "requires": [],
+    "settings": {},
+    "extensions": [
+      {
+        "id": "e9b9681c-2e53-423d-9359-6994067310d2",
+        "publisherId": "blindtiger.masm",
+        "publisherName": "blindtiger",
+        "version": "0.0.5",
+        "name": "masm"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "PowerShell": {
+    "requires": [],
+    "settings": {},
+    "extensions": [
+      {
+        "id": "40d39ce9-c381-47a0-80c8-a6661f731eab",
+        "publisherId": "ms-vscode.powershell",
+        "publisherName": "ms-vscode",
+        "version": "2021.12.0",
+        "name": "powershell"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "Draw.io": {
+    "requires": [],
+    "settings": {},
+    "extensions": [
+      {
+        "id": "ea6a6046-2132-421f-a984-664909fcf0b8",
+        "publisherId": "hediet.vscode-drawio",
+        "publisherName": "hediet",
+        "version": "1.6.4",
+        "name": "vscode-drawio"
+      }
+    ]
+  },
+
+  /*----------------------------------------------------------------------*/
+
+  "Specific Convertion Utilities": {
+    "requires": [],
+    "settings": {},
+    "extensions": [
+      {
+        "id": "c5ed5cdd-ed31-45b0-b275-878600095d31",
+        "publisherId": "adrianwilczynski.csharp-to-typescript",
+        "publisherName": "adrianwilczynski",
+        "version": "1.12.1",
+        "name": "csharp-to-typescript"
+      }
+    ]
+  }
+
+  /*----------------------------------------------------------------------*/
+}

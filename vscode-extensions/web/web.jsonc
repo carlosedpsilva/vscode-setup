@@ -1,0 +1,187 @@
+{
+  "Web": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {
+      /* Microsoft Edge Tools for VS Code */
+      "vscode-edge-devtools.mirrorEdits": true
+    },
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "be992f3f-9f22-4b66-a1d2-ecad04c28a28",
+        "publisherId": "abusaidm.html-snippets",
+        "publisherName": "abusaidm",
+        "version": "0.2.1",
+        "name": "html-snippets"
+      },
+      {
+        "id": "dff6b801-247e-40e9-82e8-8c9b1d19d1b8",
+        "publisherId": "christian-kohler.npm-intellisense",
+        "publisherName": "christian-kohler",
+        "version": "1.4.0",
+        "name": "npm-intellisense"
+      },
+      {
+        "id": "a6c97efe-981d-4eee-a0bd-5ffd1dc807f1",
+        "publisherId": "codespaces-contrib.codeswing",
+        "publisherName": "codespaces-contrib",
+        "version": "0.0.21",
+        "name": "codeswing"
+      },
+      {
+        "id": "aaee577c-f062-495a-9816-0cbd442f1d25",
+        "publisherId": "ecmel.vscode-html-css",
+        "publisherName": "ecmel",
+        "version": "1.10.2",
+        "name": "vscode-html-css"
+      },
+      {
+        "id": "ae9e3eb0-3357-4cc0-90ee-598d2d384757",
+        "publisherId": "eg2.vscode-npm-script",
+        "publisherName": "eg2",
+        "version": "0.3.24",
+        "name": "vscode-npm-script"
+      },
+      {
+        "id": "1354b22c-ace1-4ae8-82e4-a4b5a316a5b3",
+        "publisherId": "JakeWilson.vscode-picture",
+        "publisherName": "JakeWilson",
+        "version": "1.0.0",
+        "name": "vscode-picture"
+      },
+      {
+        "id": "ee108066-df8b-43ae-9a83-e6c11400a759",
+        "publisherId": "jasonnutter.search-node-modules",
+        "publisherName": "jasonnutter",
+        "version": "1.3.0",
+        "name": "search-node-modules"
+      },
+      {
+        "id": "4ae6dc82-7981-4f10-bd81-2d72aec37f39",
+        "publisherId": "jock.svg",
+        "publisherName": "jock",
+        "version": "1.4.15",
+        "name": "svg"
+      },
+      {
+        "id": "2fc88c26-cd0f-419e-b99a-bfdedc62ff01",
+        "publisherId": "l7ssha.tag-inserter",
+        "publisherName": "l7ssha",
+        "version": "1.4.0",
+        "name": "tag-inserter"
+      },
+      {
+        "id": "0ec558c9-f7f7-4df3-b2cf-a41ddcf292dd",
+        "publisherId": "mkaufman.HTMLHint",
+        "publisherName": "mkaufman",
+        "version": "0.10.0",
+        "name": "HTMLHint"
+      },
+      {
+        "id": "beb68b20-7c55-471c-9b63-3486f9423566",
+        "publisherId": "mrmlnc.vscode-scss",
+        "publisherName": "mrmlnc",
+        "version": "0.10.0",
+        "name": "vscode-scss"
+      },
+      {
+        "id": "11cb120c-f665-45bc-a21e-6de8a5685850",
+        "publisherId": "ms-edgedevtools.vscode-edge-devtools",
+        "publisherName": "ms-edgedevtools",
+        "version": "1.4.3",
+        "name": "vscode-edge-devtools"
+      },
+      {
+        "id": "7acbb4ce-c85a-49d4-8d95-a8054406ae97",
+        "publisherId": "ms-vscode.js-debug-nightly",
+        "publisherName": "ms-vscode",
+        "version": "2022.2.317",
+        "name": "js-debug-nightly"
+      },
+      {
+        "id": "0b8f8d63-11a2-4194-969c-ca7488b3413a",
+        "publisherId": "pranaygp.vscode-css-peek",
+        "publisherName": "pranaygp",
+        "version": "4.2.0",
+        "name": "vscode-css-peek"
+      },
+      {
+        "id": "ad94b437-b5a7-4249-bf5f-df472ae0d084",
+        "publisherId": "ritwickdey.live-sass",
+        "publisherName": "ritwickdey",
+        "version": "3.0.0",
+        "name": "live-sass"
+      },
+      {
+        "id": "b63c44fd-0457-4696-99e9-dbfdf70d77de",
+        "publisherId": "ritwickdey.LiveServer",
+        "publisherName": "ritwickdey",
+        "version": "5.7.4",
+        "name": "LiveServer"
+      },
+      {
+        "id": "01708053-6fab-403f-9787-9d5f3d8f7d6a",
+        "publisherId": "sibiraj-s.vscode-scss-formatter",
+        "publisherName": "sibiraj-s",
+        "version": "2.3.3",
+        "name": "vscode-scss-formatter"
+      },
+      {
+        "id": "f45dc69c-8d62-4ea1-b01f-3ab90854acb6",
+        "publisherId": "sidthesloth.html5-boilerplate",
+        "publisherName": "sidthesloth",
+        "version": "1.1.1",
+        "name": "html5-boilerplate"
+      },
+      {
+        "id": "22a740c5-ec07-4bf0-a58f-1a38aabea310",
+        "publisherId": "styled-components.vscode-styled-components",
+        "publisherName": "styled-components",
+        "version": "1.7.2",
+        "name": "vscode-styled-components"
+      },
+      {
+        "id": "f9dd9e15-b3f1-49eb-a8f0-d14b65645290",
+        "publisherId": "TaodongWu.ejs-snippets",
+        "publisherName": "TaodongWu",
+        "version": "0.1.0",
+        "name": "ejs-snippets"
+      },
+      {
+        "id": "aae0701b-111f-49c1-9000-abd37a442f28",
+        "publisherId": "WallabyJs.quokka-vscode",
+        "publisherName": "WallabyJs",
+        "version": "1.0.442",
+        "name": "quokka-vscode"
+      },
+      {
+        "id": "a2cec723-5349-460d-9de9-0fd1f8d3456f",
+        "publisherId": "xabikos.JavaScriptSnippets",
+        "publisherName": "xabikos",
+        "version": "1.8.0",
+        "name": "JavaScriptSnippets"
+      },
+      {
+        "id": "a18a6705-5a6a-4e14-a4a7-3efa6b7647d5",
+        "publisherId": "yandeu.five-server",
+        "publisherName": "yandeu",
+        "version": "0.1.3",
+        "name": "five-server"
+      },
+      {
+        "id": "7b71fc1b-190d-4f7d-95d1-93e422649b0a",
+        "publisherId": "Zignd.html-css-class-completion",
+        "publisherName": "Zignd",
+        "version": "1.20.0",
+        "name": "html-css-class-completion"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

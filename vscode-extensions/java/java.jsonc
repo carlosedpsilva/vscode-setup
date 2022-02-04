@@ -1,0 +1,115 @@
+{
+  "Java": {
+    "requires": ["Java"],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {
+      /*
+       * Java
+       */
+
+      "java.dependency.packagePresentation": "hierarchical",
+      "java.server.launchMode": "Hybrid",
+      "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\codp\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+
+      "dependencyAnalytics.apiKey": "deead3ec-9404-4eb2-b7c2-cca2455155e6",
+
+      "java.configuration.updateBuildConfiguration": "automatic",
+      "java.configuration.checkProjectSettingsExclusions": false,
+
+      "java.codeGeneration.generateComments": false,
+      "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+      "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+
+      "java.completion.guessMethodArguments": true,
+      "java.debug.settings.showHex": true,
+      "java.implementationsCodeLens.enabled": true,
+      "java.saveActions.organizeImports": true,
+      "java.showBuildStatusOnStart.enabled": true,
+      "java.typeHierarchy.lazyLoad": true,
+
+      "java.configuration.runtimes": [
+        {
+          "name": "JavaSE-1.8",
+          "path": "C:\\Progra~1\\Java\\jdk1.8.0_311"
+        },
+        {
+          "name": "JavaSE-11",
+          "path": "C:\\Progra~1\\Java\\jdk-11.0.13"
+        },
+        {
+          "name": "JavaSE-14",
+          "path": "C:\\Progra~1\\Java\\jdk-14.0.2"
+        },
+        {
+          "name": "JavaSE-15",
+          "path": "C:\\Progra~1\\Java\\jdk-15.0.2"
+        },
+        {
+          "name": "JavaSE-16",
+          "path": "C:\\Progra~1\\Java\\jdk-16.0.2"
+        },
+        {
+          "name": "JavaSE-17",
+          "path": "C:\\Progra~1\\Java\\jdk-17.0.1",
+          "default": true
+        }
+      ],
+
+      "java.project.resourceFilters": ["node_modules", ".git"],
+
+      /* Red Hat Telemetry */
+      "redhat.telemetry.enabled": false
+    },
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "4b3ff6b3-747b-48b1-9593-61195ead981b",
+        "publisherId": "GabrielBB.vscode-lombok",
+        "publisherName": "GabrielBB",
+        "version": "1.0.1",
+        "name": "vscode-lombok"
+      },
+      {
+        "id": "efcb43ca-77e6-43e4-8ddc-ada617cb34bd",
+        "publisherId": "redhat.fabric8-analytics",
+        "publisherName": "redhat",
+        "version": "0.3.5",
+        "name": "fabric8-analytics"
+      },
+      {
+        "id": "198a707e-28af-4e84-8610-6e2f628dd12d",
+        "publisherId": "redhat.java",
+        "publisherName": "redhat",
+        "version": "1.3.0",
+        "name": "java"
+      },
+      {
+        "id": "61fcd0cf-64d7-4836-8d6b-d55f4fb83281",
+        "publisherId": "vscjava.vscode-java-debug",
+        "publisherName": "vscjava",
+        "version": "0.38.0",
+        "name": "vscode-java-debug"
+      },
+      {
+        "id": "7865e561-1c83-410e-9b99-aabada597a7e",
+        "publisherId": "vscjava.vscode-java-dependency",
+        "publisherName": "vscjava",
+        "version": "0.19.0",
+        "name": "vscode-java-dependency"
+      },
+      {
+        "id": "67c06b0d-1891-42ca-b2a8-113e79bff069",
+        "publisherId": "vscjava.vscode-java-test",
+        "publisherName": "vscjava",
+        "version": "0.34.0",
+        "name": "vscode-java-test"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

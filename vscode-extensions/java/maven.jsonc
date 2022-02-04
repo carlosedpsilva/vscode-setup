@@ -1,0 +1,40 @@
+{
+  "Maven": {
+    "requires": ["Java", "Maven"],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {
+      /* maven */
+
+      "java.configuration.maven.globalSettings": "%DEV_HOME%\\Resources\\cli\\apache-maven-3.8.1\\confsettings.xml",
+
+      "maven.pomfile.autoUpdateEffectivePOM": true,
+      "java.eclipse.downloadSources": true,
+      "java.maven.downloadSources": true,
+      "java.maven.updateSnapshots": true,
+      "maven.terminal.useJavaHome": true
+    },
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "518129cb-a0fa-4e05-9f5c-7e0def1543a1",
+        "publisherId": "dhruv.maven-dependency-explorer",
+        "publisherName": "dhruv",
+        "version": "1.0.13",
+        "name": "maven-dependency-explorer"
+      },
+      {
+        "id": "b0f06c6b-24fb-4d7b-bd79-bc5e2fa17312",
+        "publisherId": "vscjava.vscode-maven",
+        "publisherName": "vscjava",
+        "version": "0.35.0",
+        "name": "vscode-maven"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

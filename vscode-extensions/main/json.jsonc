@@ -1,0 +1,37 @@
+{
+  "JSON": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "cede8dbb-204d-442f-847b-5903de0006d0",
+        "publisherId": "doggy8088.quicktype-refresh",
+        "publisherName": "doggy8088",
+        "version": "0.1.1",
+        "name": "quicktype-refresh"
+      },
+      {
+        "id": "fd6cae52-0b2a-4c60-83c7-033e88151341",
+        "publisherId": "nidu.copy-json-path",
+        "publisherName": "nidu",
+        "version": "0.2.0",
+        "name": "copy-json-path"
+      },
+      {
+        "id": "3fb77af3-b8b3-4cb9-9137-f555bd80e2b1",
+        "publisherId": "richie5um2.vscode-sort-json",
+        "publisherName": "richie5um2",
+        "version": "1.20.0",
+        "name": "vscode-sort-json"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Quarkus": {
+    "requires": ["Java", "Quarkus"],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "09e0c57a-8f44-4097-be54-62ce0fe71495",
+        "publisherId": "ggrebert.quarkus-snippets",
+        "publisherName": "ggrebert",
+        "version": "2.0.2",
+        "name": "quarkus-snippets"
+      },
+      {
+        "id": "198a707e-28af-4e84-8610-6e2f628dd12d",
+        "publisherId": "redhat.java",
+        "publisherName": "redhat",
+        "version": "1.3.0",
+        "name": "java"
+      },
+      {
+        "id": "e380c061-ebe8-43f0-bcec-f3d904d0c3e2",
+        "publisherId": "redhat.vscode-microprofile",
+        "publisherName": "redhat",
+        "version": "0.3.0",
+        "name": "vscode-microprofile"
+      },
+      {
+        "id": "62c9f526-503d-4361-aefd-82dc50a69146",
+        "publisherId": "redhat.vscode-quarkus",
+        "publisherName": "redhat",
+        "version": "1.9.0",
+        "name": "vscode-quarkus"
+      },
+      {
+        "id": "61fcd0cf-64d7-4836-8d6b-d55f4fb83281",
+        "publisherId": "vscjava.vscode-java-debug",
+        "publisherName": "vscjava",
+        "version": "0.38.0",
+        "name": "vscode-java-debug"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

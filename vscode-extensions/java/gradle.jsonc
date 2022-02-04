@@ -1,0 +1,38 @@
+{
+  "Gradle": {
+    "requires": ["Java", "Gradle"],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {
+      /* gradle */
+
+      "gradle.autoDetect": "on",
+      "gradle.reuseTerminals": "all",
+      "gradle.disableConfirmations": true,
+      "gradle.focusTaskInExplorer": true,
+      "gradle.nestedProjects": true
+    },
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "1dd7f786-f59f-4199-a147-fc98a56a11f2",
+        "publisherId": "naco-siren.gradle-language",
+        "publisherName": "naco-siren",
+        "version": "0.2.3",
+        "name": "gradle-language"
+      },
+      {
+        "id": "a226f06e-9b5e-493b-b92a-553d3572f969",
+        "publisherId": "vscjava.vscode-gradle",
+        "publisherName": "vscjava",
+        "version": "3.10.0",
+        "name": "vscode-gradle"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

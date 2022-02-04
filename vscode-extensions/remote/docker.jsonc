@@ -1,0 +1,44 @@
+{
+  "Docker": {
+    "requires": ["Docker"],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "96c69be9-5b09-4a18-8c82-4d30ab145017",
+        "publisherId": "formulahendry.docker-explorer",
+        "publisherName": "formulahendry",
+        "version": "0.1.7",
+        "name": "docker-explorer"
+      },
+      {
+        "id": "5e1ad6e2-8470-4064-95b4-8f4e4f218af5",
+        "publisherId": "henriiik.docker-linter",
+        "publisherName": "henriiik",
+        "version": "0.5.0",
+        "name": "docker-linter"
+      },
+      {
+        "id": "0479fc1c-3d67-49f9-b087-fb9069afe48f",
+        "publisherId": "ms-azuretools.vscode-docker",
+        "publisherName": "ms-azuretools",
+        "version": "1.19.0",
+        "name": "vscode-docker"
+      },
+      {
+        "id": "b4b6f023-bc31-4050-bb3d-f419aae20eeb",
+        "publisherId": "p1c2u.docker-compose",
+        "publisherName": "p1c2u",
+        "version": "0.3.5",
+        "name": "docker-compose"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

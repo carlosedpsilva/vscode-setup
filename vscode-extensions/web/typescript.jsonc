@@ -1,0 +1,44 @@
+{
+  "TypeScripts": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "15305aca-2588-4ca0-8147-ab2c64730b82",
+        "publisherId": "ms-vscode.vscode-typescript-next",
+        "publisherName": "ms-vscode",
+        "version": "4.6.20220203",
+        "name": "vscode-typescript-next"
+      },
+      {
+        "id": "90a37ca1-92a2-488a-b196-7a8c0b0127ea",
+        "publisherId": "ms-vscode.vscode-typescript-tslint-plugin",
+        "publisherName": "ms-vscode",
+        "version": "1.3.3",
+        "name": "vscode-typescript-tslint-plugin"
+      },
+      {
+        "id": "6bc1e3ad-c0e2-46b6-bbad-246c5f59215b",
+        "publisherId": "pmneo.tsimporter",
+        "publisherName": "pmneo",
+        "version": "2.0.1",
+        "name": "tsimporter"
+      },
+      {
+        "id": "38583aca-2ba1-417f-80fc-68ca8d717fb4",
+        "publisherId": "rbbit.typescript-hero",
+        "publisherName": "rbbit",
+        "version": "3.0.0",
+        "name": "typescript-hero"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

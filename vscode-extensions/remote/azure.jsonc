@@ -1,0 +1,128 @@
+{
+  "Azure": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "238a3e72-2381-419b-8ed2-ece541264f28",
+        "publisherId": "bencoleman.armview",
+        "publisherName": "bencoleman",
+        "version": "0.4.5",
+        "name": "armview"
+      },
+      {
+        "id": "7032281c-aa10-4e95-9049-46a8bd112af3",
+        "publisherId": "ms-azure-devops.azure-pipelines",
+        "publisherName": "ms-azure-devops",
+        "version": "1.195.0",
+        "name": "azure-pipelines"
+      },
+      {
+        "id": "42691ca6-18d6-4efe-9e9a-1aabad399d4b",
+        "publisherId": "ms-azuretools.vscode-azureappservice",
+        "publisherName": "ms-azuretools",
+        "version": "0.23.0",
+        "name": "vscode-azureappservice"
+      },
+      {
+        "id": "2ed5adbe-c4e1-4227-8e41-31e2095b30e3",
+        "publisherId": "ms-azuretools.vscode-azurefunctions",
+        "publisherName": "ms-azuretools",
+        "version": "1.6.0",
+        "name": "vscode-azurefunctions"
+      },
+      {
+        "id": "260e9ed1-160d-4f7e-807c-2eb076ba3846",
+        "publisherId": "ms-azuretools.vscode-azureresourcegroups",
+        "publisherName": "ms-azuretools",
+        "version": "0.4.0",
+        "name": "vscode-azureresourcegroups"
+      },
+      {
+        "id": "2a1fdf76-30a9-4155-94f1-73462a7cee3f",
+        "publisherId": "ms-azuretools.vscode-azurestorage",
+        "publisherName": "ms-azuretools",
+        "version": "0.13.0",
+        "name": "vscode-azurestorage"
+      },
+      {
+        "id": "6c14d399-a13b-4542-b439-f521b071cf35",
+        "publisherId": "ms-azuretools.vscode-azurevirtualmachines",
+        "publisherName": "ms-azuretools",
+        "version": "0.5.0",
+        "name": "vscode-azurevirtualmachines"
+      },
+      {
+        "id": "1e9f2dc9-aa4c-4e27-afc5-f781e9a9cd9b",
+        "publisherId": "ms-azuretools.vscode-bicep",
+        "publisherName": "ms-azuretools",
+        "version": "0.4.1124",
+        "name": "vscode-bicep"
+      },
+      {
+        "id": "951e1945-25a8-4ea0-aa11-076ac75b098d",
+        "publisherId": "ms-azuretools.vscode-cosmosdb",
+        "publisherName": "ms-azuretools",
+        "version": "0.18.1",
+        "name": "vscode-cosmosdb"
+      },
+      {
+        "id": "1aab81a1-b3d9-4aef-976b-577d5d90fe3f",
+        "publisherId": "ms-dotnettools.vscode-dotnet-runtime",
+        "publisherName": "ms-dotnettools",
+        "version": "1.5.0",
+        "name": "vscode-dotnet-runtime"
+      },
+      {
+        "id": "77956bb0-f215-4e09-821d-411e98bc7569",
+        "publisherId": "ms-kubernetes-tools.vscode-aks-tools",
+        "publisherName": "ms-kubernetes-tools",
+        "version": "0.0.11",
+        "name": "vscode-aks-tools"
+      },
+      {
+        "id": "4837e4f3-1b01-4732-b1a6-daa57ef64cab",
+        "publisherId": "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "publisherName": "ms-kubernetes-tools",
+        "version": "1.3.6",
+        "name": "vscode-kubernetes-tools"
+      },
+      {
+        "id": "819a23e1-b6c6-41cf-9029-e653b537d996",
+        "publisherId": "ms-vscode.azure-account",
+        "publisherName": "ms-vscode",
+        "version": "0.9.11",
+        "name": "azure-account"
+      },
+      {
+        "id": "5dcca53c-1485-4cdc-a643-4a366d2ac9e0",
+        "publisherId": "ms-vscode.azurecli",
+        "publisherName": "ms-vscode",
+        "version": "0.5.0",
+        "name": "azurecli"
+      },
+      {
+        "id": "6bbbdb2c-957f-4af7-8257-6f5e68e15bad",
+        "publisherId": "msazurermtools.azurerm-vscode-tools",
+        "publisherName": "msazurermtools",
+        "version": "0.15.5",
+        "name": "azurerm-vscode-tools"
+      },
+      {
+        "id": "2061917f-f76a-458a-8da9-f162de22b97e",
+        "publisherId": "redhat.vscode-yaml",
+        "publisherName": "redhat",
+        "version": "1.4.0",
+        "name": "vscode-yaml"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

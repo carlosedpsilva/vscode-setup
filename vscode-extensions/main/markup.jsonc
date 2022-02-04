@@ -1,0 +1,65 @@
+{
+  "Markup": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "0cb81da2-1880-4755-9995-0ae9cc728e20",
+        "publisherId": "DotJoshJohnson.xml",
+        "publisherName": "DotJoshJohnson",
+        "version": "2.5.1",
+        "name": "xml"
+      },
+      {
+        "id": "7752d5d1-7dab-46f8-bc86-ffca8c2d33e7",
+        "publisherId": "fabianlauer.vs-code-xml-format",
+        "publisherName": "fabianlauer",
+        "version": "0.1.5",
+        "name": "vs-code-xml-format"
+      },
+      {
+        "id": "d3836729-9cc1-42c1-b2af-d50071f57d29",
+        "publisherId": "formulahendry.auto-close-tag",
+        "publisherName": "formulahendry",
+        "version": "0.5.13",
+        "name": "auto-close-tag"
+      },
+      {
+        "id": "6e440e71-8ed9-4f25-bb78-4b13096b8a03",
+        "publisherId": "formulahendry.auto-rename-tag",
+        "publisherName": "formulahendry",
+        "version": "0.1.9",
+        "name": "auto-rename-tag"
+      },
+      {
+        "id": "6703768d-d42f-474e-9f6e-5f288d53f6e8",
+        "publisherId": "redhat.vscode-xml",
+        "publisherName": "redhat",
+        "version": "0.18.3",
+        "name": "vscode-xml"
+      },
+      {
+        "id": "2061917f-f76a-458a-8da9-f162de22b97e",
+        "publisherId": "redhat.vscode-yaml",
+        "publisherName": "redhat",
+        "version": "1.4.0",
+        "name": "vscode-yaml"
+      },
+      {
+        "id": "aae00486-7e92-42b3-91b0-2b419e4f3875",
+        "publisherId": "vincaslt.highlight-matching-tag",
+        "publisherName": "vincaslt",
+        "version": "0.10.1",
+        "name": "highlight-matching-tag"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "Markdown": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "b0db4123-c5d9-4f45-bd2e-70738ebbb304",
+        "publisherId": "bierner.markdown-checkbox",
+        "publisherName": "bierner",
+        "version": "0.3.2",
+        "name": "markdown-checkbox"
+      },
+      {
+        "id": "f595c9c1-28b5-415e-a55f-2deb4a8c3abd",
+        "publisherId": "bierner.markdown-emoji",
+        "publisherName": "bierner",
+        "version": "0.2.1",
+        "name": "markdown-emoji"
+      },
+      {
+        "id": "a41ef446-bc82-4194-b848-9b3d6f60e18d",
+        "publisherId": "bierner.markdown-image-size",
+        "publisherName": "bierner",
+        "version": "0.0.4",
+        "name": "markdown-image-size"
+      },
+      {
+        "id": "5cbdf58a-694a-4aba-af08-61d00842eb03",
+        "publisherId": "bierner.markdown-preview-github-styles",
+        "publisherName": "bierner",
+        "version": "1.0.1",
+        "name": "markdown-preview-github-styles"
+      },
+      {
+        "id": "b872af63-f9e1-438e-9462-0315abe9d3aa",
+        "publisherId": "bierner.markdown-yaml-preamble",
+        "publisherName": "bierner",
+        "version": "0.1.0",
+        "name": "markdown-yaml-preamble"
+      },
+      {
+        "id": "daf8b44d-8aae-4da2-80c5-1f770219f643",
+        "publisherId": "DavidAnson.vscode-markdownlint",
+        "publisherName": "DavidAnson",
+        "version": "0.46.0",
+        "name": "vscode-markdownlint"
+      },
+      {
+        "id": "7f3af699-c465-49f3-8868-653a7e950c1e",
+        "publisherId": "hancel.markdown-image",
+        "publisherName": "hancel",
+        "version": "1.1.17",
+        "name": "markdown-image"
+      },
+      {
+        "id": "f015bc3c-a098-4245-8765-615e002e09ab",
+        "publisherId": "yzane.markdown-pdf",
+        "publisherName": "yzane",
+        "version": "1.4.4",
+        "name": "markdown-pdf"
+      },
+      {
+        "id": "98790d67-10fa-497c-9113-f6c7489207b2",
+        "publisherId": "yzhang.markdown-all-in-one",
+        "publisherName": "yzhang",
+        "version": "3.4.0",
+        "name": "markdown-all-in-one"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

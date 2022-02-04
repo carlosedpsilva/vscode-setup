@@ -1,0 +1,126 @@
+[
+  /* ------------------------------------------------------------------------ */
+  /*                                  GENERAL                                 */
+  /* ------------------------------------------------------------------------ */
+
+  {
+    "key": "ctrl+k ctrl+shift+r",
+    "command": "workbench.action.reloadWindow"
+  },
+
+  {
+    "key": "ctrl+alt+v",
+    "command": "toggleVim"
+  },
+
+  /* ------------------------------------------------------------------------ */
+  /*                                  DISPLAY                                 */
+  /* ------------------------------------------------------------------------ */
+
+  {
+    "key": "ctrl+k ctrl+b",
+    "command": "workbench.action.toggleSidebarPosition"
+  },
+
+  {
+    "key": "ctrl+k shift+alt+up",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+
+  /*
+   * Toggles
+   */
+
+  /* ------------------------------------------------------------------------ */
+  /*                                 EXPLORER                                 */
+  /* ------------------------------------------------------------------------ */
+
+  /* Explorer Focus */
+
+  {
+    "key": "ctrl+k ctrl+e",
+    "command": "workbench.files.action.focusOpenEditorsView",
+    "when": "workbench.explorer.openEditorsView.active"
+  },
+
+  {
+    "key": "ctrl+k e",
+    "command": "workbench.explorer.fileView.focus"
+  },
+
+  {
+    "key": "ctrl+shift+a",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+
+  /* Explorer new... */
+
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+
+  {
+    "key": "ctrl+k ctrl+n",
+    "command": "explorer.newFolder"
+  },
+
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+
+  /* ------------------------------------------------------------------------ */
+  /*                                 TERMINAL                                 */
+  /* ------------------------------------------------------------------------ */
+
+  {
+    "key": "ctrl+k tab",
+    "command": "workbench.action.terminal.focusNext"
+  },
+
+  /* Split */
+
+  {
+    "key": "shift+alt+oem_plus",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+
+  /* Kill */
+
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalIsOpen && terminalFocus"
+  },
+  {
+    "key": "ctrl+f4",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalIsOpen && terminalFocus"
+  },
+  {
+    "key": "shift+alt+oem_minus",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalIsOpen && terminalFocus"
+  },
+
+  /* ------------------------------------------------------------------------ */
+  /*                             VERSION CONTROL                              */
+  /* ------------------------------------------------------------------------ */
+
+  {
+    "key": "ctrl+k ctrl+shift+c",
+    "command": "gitlens.toggleFileChanges"
+  },
+
+  /* ------------------------------------------------------------------------ */
+  /*                              NON-CATEGORIZED                             */
+  /* ------------------------------------------------------------------------ */
+
+  {
+    "key": "key",
+    "command": "commandId",
+    "when": "editorTextFocus"
+  }
+]

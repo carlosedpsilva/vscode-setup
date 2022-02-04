@@ -1,0 +1,51 @@
+{
+  "Kubernetes": {
+    "requires": ["Kubectl"],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {},
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "1bf2afc4-296d-482b-89ff-3318c474a2a8",
+        "publisherId": "ipedrazas.kubernetes-snippets",
+        "publisherName": "ipedrazas",
+        "version": "0.1.9",
+        "name": "kubernetes-snippets"
+      },
+      {
+        "id": "c5f9ea77-0f11-4bd6-9736-341deca7a35c",
+        "publisherId": "mindaro-dev.file-downloader",
+        "publisherName": "mindaro-dev",
+        "version": "1.0.11",
+        "name": "file-downloader"
+      },
+      {
+        "id": "a5fe6018-ad8a-4dca-8dee-0ababc73d077",
+        "publisherId": "mindaro.mindaro",
+        "publisherName": "mindaro",
+        "version": "1.0.120220125",
+        "name": "mindaro"
+      },
+      {
+        "id": "4837e4f3-1b01-4732-b1a6-daa57ef64cab",
+        "publisherId": "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "publisherName": "ms-kubernetes-tools",
+        "version": "1.3.6",
+        "name": "vscode-kubernetes-tools"
+      },
+      {
+        "id": "2061917f-f76a-458a-8da9-f162de22b97e",
+        "publisherId": "redhat.vscode-yaml",
+        "publisherName": "redhat",
+        "version": "1.4.0",
+        "name": "vscode-yaml"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}

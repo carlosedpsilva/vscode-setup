@@ -1,0 +1,107 @@
+{
+  "Version Control": {
+    "requires": [],
+
+    /*------------------------------------------------------------------------*/
+
+    "settings": {
+      /*
+       * Version Control
+       */
+
+      "git.autofetch": true,
+
+      "diffEditor.wordWrap": "off",
+      "diffEditor.renderIndicators": true,
+      "diffEditor.renderSideBySide": true,
+      "diffEditor.ignoreTrimWhitespace": false,
+
+      "conventionalCommits.lineBreak": "\n",
+      "conventionalCommits.autoCommit": false
+    },
+
+    /*------------------------------------------------------------------------*/
+
+    "extensions": [
+      {
+        "id": "c6f98943-7f9b-4776-b2a8-409227a481e2",
+        "publisherId": "arturock.gitstash",
+        "publisherName": "arturock",
+        "version": "5.1.0",
+        "name": "gitstash"
+      },
+      {
+        "id": "3e891cf9-53cb-49a3-8d01-8f0b1f0afb29",
+        "publisherId": "codezombiech.gitignore",
+        "publisherName": "codezombiech",
+        "version": "0.7.0",
+        "name": "gitignore"
+      },
+      {
+        "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
+        "publisherId": "eamodio.gitlens",
+        "publisherName": "eamodio",
+        "version": "11.7.0",
+        "name": "gitlens"
+      },
+      {
+        "id": "4fedf6ae-1b56-4726-9f7f-e9592a6d4804",
+        "publisherId": "fabiospampinato.vscode-diff",
+        "publisherName": "fabiospampinato",
+        "version": "1.4.2",
+        "name": "vscode-diff"
+      },
+      {
+        "id": "69ddd764-339a-4ecc-97c1-9c4ece58e36d",
+        "publisherId": "GitHub.vscode-pull-request-github",
+        "publisherName": "GitHub",
+        "version": "0.36.0",
+        "name": "vscode-pull-request-github"
+      },
+      {
+        "id": "e92fc876-c894-4a47-8c2c-95bb4af8d8a7",
+        "publisherId": "lostintangent.wikilens",
+        "publisherName": "lostintangent",
+        "version": "0.0.5",
+        "name": "wikilens"
+      },
+      {
+        "id": "438221f8-1107-4ccd-a6fe-f3b7fe0856b7",
+        "publisherId": "mhutchie.git-graph",
+        "publisherName": "mhutchie",
+        "version": "1.30.0",
+        "name": "git-graph"
+      },
+      {
+        "id": "79afa437-682e-4fa2-a4fd-87844832a1dc",
+        "publisherId": "ryu1kn.partial-diff",
+        "publisherName": "ryu1kn",
+        "version": "1.4.3",
+        "name": "partial-diff"
+      },
+      {
+        "id": "b6b26bce-33f4-4bce-bf92-89812388ed0a",
+        "publisherId": "vivaxy.vscode-conventional-commits",
+        "publisherName": "vivaxy",
+        "version": "1.24.0",
+        "name": "vscode-conventional-commits"
+      },
+      {
+        "id": "1d9b1776-4188-4b43-b23f-bab3d47537e9",
+        "publisherId": "vsls-contrib.codetour",
+        "publisherName": "vsls-contrib",
+        "version": "0.0.58",
+        "name": "codetour"
+      },
+      {
+        "id": "0cfb9d1d-3e59-4c36-a597-157b54e4442b",
+        "publisherId": "vsls-contrib.gistfs",
+        "publisherName": "vsls-contrib",
+        "version": "0.3.0",
+        "name": "gistfs"
+      }
+    ]
+
+    /*------------------------------------------------------------------------*/
+  }
+}
